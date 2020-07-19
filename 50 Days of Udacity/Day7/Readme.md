@@ -33,4 +33,4 @@ We typically want to split our data into three parts:
 
 We use the training data to learn the values for the parameters. Then, we check the model's performance on the validation data and tune the hyperparameters until the model performs well with the validation data. For instance, perhaps we need to have more or fewer layers in our neural network. We can adjust this hyperparameter and then test the model on the validation data once again to see if its performance has improved.
 
-Finally, once we believe we have our finished model (with both parameters and hyperparameters optimized), we will want to do a final check of its performance—and we need to do this on some fresh test data that we did not use during the training process.
+Finally, once we believe we have our finished model (with both parameters and hyperparameters optimized), we will want to do a final check of its performance and we need to do this on some fresh test data that we did not use during the training process.
