@@ -1,4 +1,6 @@
-# Data Drift
+# Day 7
+
+## Data Drift
 
 - Data Drift is a change in input data for a model.
 - Overtime, data drift causes degradation in model performance, as the input data drifts farther and farther from the data on which the model was trained.
@@ -9,7 +11,7 @@
 - Comparing different samples of time series data. In this case, you are checking for a difference between one time period and another. For example, a model trained on data collected during one season may perform differently when given data from another time of year. Detecting this seasonal drift in the data will alert you to potential issues with your model's accuracy.
 
 
-## Parameters and Hyperparameters
+### Parameters and Hyperparameters
 
 When we train a model, a large part of the process involves learning the values of the parameters of the model. For example, earlier we looked at the general form for linear regression:
 
@@ -24,7 +26,7 @@ In contrast, some model parameters are not learned from the data. These are call
 - The learning rate of the model
 - We must choose some values for these hyperparameters, but we do not necessarily know what the best values will be prior to training. Because of this, a common approach is to take a best guess, train the model, and then tune adjust or tune the hyperparameters based on the model's performance.
 
-## Splitting the Data
+### Splitting the Data
 
 We typically want to split our data into three parts:
 - Training data
